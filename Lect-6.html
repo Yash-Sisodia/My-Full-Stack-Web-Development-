@@ -1,0 +1,83 @@
+<!--Forms and inputs tags-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>Forms & Input Tags</h3>
+    <!-- <form action="">
+        Name : <input type="text">
+        Role : <input type="text">
+    </form> -->
+
+    <!--How to break the line we can do it by using br tag but there is also a very good tag that is div tag we can break the line by using div tag-->
+
+    <form action="backend.php">
+        <label for="myidname"> Name : </label>
+        
+      <div>
+        <input type="text" name="myNmae" id="myidname"/>
+      </div>
+
+      <label for="myRoleid"> Role : </label>
+      <div>
+        <input type="text" name="myRole" id="myRoleid"/>
+      </div>
+    
+    <div>
+      Email : <input type="email" name="myEmail" />
+
+      <!-- Email : <input type="text"> -->
+    </div>
+
+    <!--How to submit form ?-->
+    <div>
+      <!-- <input type="submit" value="Submit Now" /> -->
+
+      <input type="submit" value="Submit Now" />
+
+    </div>
+
+    <!-- Date -->
+    <div>
+        Date : <input type="date">
+    </div>
+
+    <!-- Radio button & check box -->
+    <div>
+       Are you eligible? <input type="checkbox" name="myEligibility">
+    </div>
+
+    <!-- Radio Button -->
+
+    <div>
+        Gender : Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+    </div>
+
+    <!-- Reset button -->
+
+    <div>
+        <input type="reset" value="Rest Now">
+    </div>
+
+    <!-- Text Area -->
+
+    <div>
+        <textarea name="myText" cols="30" rows="10"></textarea>
+    </div>
+
+    <!--Select Tag (it will help in selecting single option from a multiple options)-->
+
+    
+Car:<select name="car">
+        <option value="indi">Indica</option>
+        <option value="swi">Swift</option>
+    </select>
+
+</form>
+  </body>
+</html>
